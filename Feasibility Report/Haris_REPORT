@@ -1,0 +1,14 @@
+Q. Visibility plan. How will you keep in contact with the client and report progress? How will you communicate among your team?
+
+The team will prepare a formal document that will detail the client’s requirements for the software.  The client will categorize these requirements into required, desired, and optional features.  After the document is approved by the client, the team will design the initial user interface for the client’s evaluation.
+The Group will conduct meetings with the Client.  A report will be issued to the Client at the end of every step to ensure client’s needs and to avoid any miscommunication in the requirements, e.g. design, functional specification etc.  Any additional communication will be done via email or through other collaboration tools such as document sharing and the source code will be stored on GitHub. All source code will be documented carefully before being submitted to the repository. The internal communication within the team would also take place through different platforms (Zoom, mail etc). 
+
+Q. Risk analysis. What can go wrong? What is your fallback plan?
+
+1. Time: Our project needs to be finished within the semester and so we have only few weeks left for project submission which introduces a risk that the system may not be completed within time and also according to clients needs and requirements.
+2. Resources: For project development we need to have laptops in proper working condition as well as the software on which we need to work. The internet connection should also to be efficient.
+3. Functionalities: The project must fulfill client’s needs, the design or the interface and must also include all the features he wants.
+4. Members: We are a group of 4 members and have basic knowledge about relevant web technologies resulting in a slow implementation.
+
+Fallback Plan:
+Our fallback plan is to create backup on each group member’s device and also if the device crashes we will have our backup also on GitHub repository so we can have access anytime and online through any device. In case if we run out of time, we can hire interns so that we may have our project completed on time.
