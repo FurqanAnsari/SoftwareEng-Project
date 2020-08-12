@@ -19,7 +19,7 @@
    This deliverable will declare the end of the project. The group will deliver the final implementation based on the requirements specified and the design developed 
    in previous stages. The system would have been tested thoroughly with unit tests and a final acceptance test and would be ready to be delivered to the client.
    
-3. TECHNICAL DELIVERABLES:
+   TECHNICAL DELIVERABLES:
    A database with the required tables to support the inventory system. A database will store all the information related to the medicines and will retrieve information
    when commanded, will also update the information when required and will also delete unnecessary information.
    
@@ -29,6 +29,39 @@
    A billing statement that will show the sub total of the amount payable and the item that one is purchasing.
    
    
-4.  PROBABLE TECHNICAL REQUIREMENTS:
+3.  PROBABLE TECHNICAL REQUIREMENTS:
     Technical requirements for this project are probably just a working computer, a stable internet connection, a database platform and a coding platform. 
+
+4.Outline Plan (Principal activities and Milestones)
+   I. Milestone 1 (August 17 , 2020) – Requirements Analysis (draft). An initial draft
+      of the requirements analysis should be done as Milestone 1. This should come
+      after a formal requirements gathering meeting with the Client.
+   II. Milestone 2 (August 20, 2020) – Requirements Analysis (final). The final
+       draft of the requirements analysis should be done for Milestone 2. In addition,
+       a presentation will be prepared as a part of this milestone.
+   III. Milestone 3 (August 24, 2020) – Software Architecture and Design (draft). An
+        initial draft of the software architecture and design should be done as Milestone
+        3. A meeting with the Client should follow Milestone 3 to get feedback on the
+         design of the system.
+    IV. Milestone 4 (August 29, 2020) – Software Architecture and Design (final). A
+        final draft of the software architecture and design document should be done for 
+        Milestone 4. A presentation should be prepared for the Client.
+     V. Milestone 5 (September 4, 2020) – Database. The database is the most important
+        part of the system, as it is the center of all information. All subsequent system
+        components depends on this deliverable. A database schema needs to be fixed
+        for Milestone 5 to provide a basis for the other components to be based on.
+     VI. Milestone 6 (September 7, 2020) – Inventory Control. As the menu of
+        cartographic information needs to be published using information in the
+        database, the next bottleneck is the inventory control, which is a graphical
+        interface to allow the administrator to enter, modify, and delete data.
+     VII. Milestone 7 (September 10, 2020) – Map and Menu. The map and the menu are the
+         front-end graphical web interface that the public user sees and interacts with.
+          Milestone 7 is to reach feature-completion on the requirements.
+      VIII. Milestone 8 (September 13, 2020) – Testing, Debugging and Integration. The system
+            needs to be well-tested, debugged at this milestone. Also, once the system has
+            passed the acceptance test, it needs to be integrated to the actual production
+            system for this milestone.
+        IX. Milestone 9 (September 17, 2020) – Project Deadline. The project source code
+              should be handed over to the Client for the final milestone. A presentation is
+               presented to the Client. 
 
