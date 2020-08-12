@@ -1,0 +1,15 @@
+Q.  Probable technical requirements?
+
+1. Database: We will provide the client with the database schema or a blueprint of how the database is constructed and helps in avoiding conflict.
+
+2. Accessibility: The system must be quickly accessible to both, the admin and the user. For gaining entry into the system the admin should register user info and the user should be able to use login & passwords for gaining access to the system.
+
+3. System Requirement: The user will be able to log into the system through any device.
+
+4. Functionalities: Our team is successful in making the system where we can update, insert and delete the item as per the requirement. This application also provides a simple report on daily basis to know the daily sales and purchase details.
+
+5.Transaction Management: There is proper and easy transaction management of inventory. All transaction have specific entry date along with quantity and rate.
+
+Q. Discussion of business considerations?	
+
+ Inventory management is an extremely important part of running a successful business in terms of theft, damage, time, miscounting, incorrect units of measures and other issues. Instead of manually saving the records, our system is automated instead of manual documentation which would save the time and would also increase correctness and also helps in increased productivity.
