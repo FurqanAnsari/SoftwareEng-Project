@@ -10,12 +10,17 @@ Serial No.	Names	E-mail
 
 •	THE TASK TO BE UNDERATKEN:
 
-This project is an interactive software-based system application to provide a working inventory and billing system for a medical store. This system will provide the user a complete interaction with the inventory data of the store and then provide a billing statement when someone purchases anything.
-The main tasks of this system will be: maintaining a functioning database for the inventory system which can store, delete and update information, then an interactive GUI for the user in order to easily work with the system and printing out a proper billing statement as an output.
+This project is an interactive software-based system application to provide a working inventory and billing system for a medical store.
+This system will provide the user a complete interaction with the inventory data of the store and then provide a billing statement when someone purchases anything.
+The main tasks of this system will be: maintaining a functioning database for the inventory system which can store, delete and update information, 
+then an interactive GUI for the user in order to easily work with the system and printing out a proper billing statement as an output.
 
 
 •	PROCESS TO BE FOLLOWED:
-In order to make this project we will be using iterative refinement method. The system will evolve better if we use the iterative approach and it will be more feasible for the developers as well as the client. Using iterative approach, we can take feedback from the client more frequently in order to develop a system adequate to the requirements of the client. Also by using this methodology, there is a fair chance that the end product will satisfy the client without causing any end time tweaks and delay.
+In order to make this project we will be using iterative refinement method.
+The system will evolve better if we use the iterative approach and it will be more feasible for the developers as well as the client. 
+Using iterative approach, we can take feedback from the client more frequently in order to develop a system adequate to the requirements of the client.
+Also by using this methodology, there is a fair chance that the end product will satisfy the client without causing any end time tweaks and delay.
 
 
 
