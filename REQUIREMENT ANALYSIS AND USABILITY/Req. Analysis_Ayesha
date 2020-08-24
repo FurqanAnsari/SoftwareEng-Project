@@ -1,0 +1,40 @@
+1.	 Introduction
+This system will help a medical store owner to easily access its data storage and maintain the inventory quite easily. 
+We will be developing an inventory system as well as the billing system. 
+In inventory system the owner or the admin can check the status, the amount, the price, the availability etc. of medicines in the store. 
+While also he can print a billing statement for the customer.
+
+1.1 Purpose
+This system can be modified to be used in multiple areas of working.
+We can make few amendments and it can be used at a general store, at a hospital dispensary etc. 
+Plus this will lessen the burden of the owner by doing all the manual work digitally.
+
+1.2 Scope
+This project can be further modified in order to become a complete inventory system and also with a few alterations we can also make this into a hospital management system.
+This software is being used in multiple places in today’s world.
+This system can provide a lot of help to the owner. 
+Instead of completing manuscripts of the medicines available and doing all the calculations by mind, this system can provide all the help.
+
+1.3 Overview
+Furthermore this report contains all the information related to the requirement phase of the project, 
+all the functional & non-functional requirements, the ERD diagram, Use case diagrams, Data Flow diagrams & the prototype of how the user interface will look like.
+
+3 External Interface Requirements
+
+Will use the Multiple Software for developing this product may change according to user feedback.
+
+3.1 User Interfaces
+Will use Bootstrap and other libraries to develop the UI. We will create an interactive use interface which be easy for the user to use and attractive.
+Requirements in order to create effective user interface will be efficiency in languages used in designing GUI.
+
+3.2 Hardware Interfaces
+Product will generate the Receipt according to provided data and Receipt Machine will print it.
+A printing machine will be used in order to print out the receipt if needed.
+
+3.3 Software Interfaces
+We will use visual studio for developing the software. Bootstrap and other JavaScript plugins for the functionality. Local DB for managing the data of the software
+
+3.4 Communications Interfaces
+The product will use Web browser, network communication and electronic forms.
+
+
