@@ -1,5 +1,101 @@
-Functional requirements :
+2. General Description
+General factor that can affect the quality of this project is the time span allotted to us. Apart from that, there is no such risk, apart from anything collapses at the last hour. We will be taking feedback from the client from time to time, so that there are no last minute issues and we can make project as close to the client’s requirement at possible.
 
-Transaction
-Database
-User interfaces
+2.1 Product Perspective
+This product looking from the user’s point of view is the need of the time. As everything is being transferred to be less manual and more technology based. This system will be helpful for user, as it will lessen the manual work and will be helpful in the management part. A lot of shopping stores are using such system at their outlets, to fasten their working rate.
+2.2 Product Functions
+This product will perform all the inventory function, such as adding data into the database, deleting data, updating already provided information, searching the data and finally developing a receipt at the checkout and printing it.
+
+2.3 User Characteristics
+The user will be provided with a id and password, and only designated users will be allowed to access the system and use it. Apart from the admins, none shall be allowed to use the system. Changes in the admins will firstly be required to be added into the database, only then new users will be able to access the system. Any other aspects of the system will not be affected by the users.
+
+2.4 General Constraints
+There are no as such general constraints for this project, except if any causality occurs at the last moment. 
+
+4 Functional Requirements
+Notable Functional requirement of this system can be a working database in order to maintain and function the inventory system. There should be no database anomalies. All the database functions like insertion of data, deletion of data, updating of data, searching of data, adding of data into the cart and then providing a checkout bill.
+
+4.1 Searching of Data:
+4.1.1 Introduction:
+User will be allowed to search the desired item through the data.
+
+4.1.2 Inputs:
+User will input code or ID of the medicine.
+
+4.1.3 Processing:
+Through database commands, using that input code/ID, system will search that specific item.
+
+4.1.4 Outputs:
+All the desired information related to that specific item will be given as output.
+
+4.2 Updating of Data
+4.2.1 Introduction
+User will be allowed to update the information in the data.
+
+4.2.2 Inputs
+User will input any key value in order to search for that specific data
+
+4.2.3 Processing
+The system will search the database using the input key, and bring out the information related to that item. Then the user can update it and save it.
+
+4.2.4 Outputs
+Information related to that item will be output and then updated information will be saved.
+
+4.3 Deleting of Data
+4.3.1 Introduction
+Admin will be allowed to delete unwanted information
+
+4.3.2 Inputs
+User will input some kind of id/Code no for the medicine and search for it.
+
+4.3.3 Processing
+Once the information shows up, there will also be an option for deleting the information. On clicking that button the information will be deleted.
+
+4.3.4 Output
+As the output that information will be deleted.
+
+4.4 Adding of Data
+4.4.1 Introduction
+Admin will be allowed to add new information into the system.
+
+4.4.2 Input
+There will be an option provided to the user. User will input the information that he wants to add.
+
+4.4.3 Processing
+The provided information will be added into the data base
+
+4.4.4 Output
+New information will be added into the system.
+
+
+4.5 Credit Receipt
+4.5.1 Introduction
+The system will also design a receipt for when making a purchase.
+
+4.5.2 Input
+The inputs will be the medicines added into the cart.
+
+4.5.3 Processing 
+The system will take those inputs and keep saving them into another page which 
+will form the bil receipt.
+
+4.5.4 Output
+The output of this feature will be a proper bill receipt with total 
+amount required.
+
+
+5 Non-Functional Requirements
+5.1 Performance
+Performance of the system should be up to the mark. Processing of data should not take too much time.
+
+5.2 Reliability
+The system will be reliable, would be able to do all the manual work of the client side related to the inventory system.
+
+5.3 Security
+The system will be secure. Only allowed users/admins will be allowed to log in into the system. The user ID and password will be checked.
+
+5.4 Maintainability
+The process can be maintained/updated from time to time as per the requirement of the client. We can add more features timely.
+
+5.5 Portability
+The system will be portable. It can be used at multiple branches.
