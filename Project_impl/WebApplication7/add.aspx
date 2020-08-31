@@ -13,6 +13,12 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+    <style type="text/css">
+        .auto-style1 {
+            height: 58px;
+        }
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -57,10 +63,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="auto-style1">
                         Enter the name of the Manufacturor:
                     </td>
-                    <td>
+                    <td class="auto-style1">
                         <asp:TextBox ID="TextBox5" runat="server" CssClass="border-success"></asp:TextBox>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox5" ErrorMessage="Please Enter the name of manufacturor" EnableClientScript="False"></asp:RequiredFieldValidator>
                     </td>
