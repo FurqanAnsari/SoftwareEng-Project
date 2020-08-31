@@ -160,9 +160,16 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="home.aspx" />
+    <Content Include="invent.PNG" />
+    <Content Include="MainApp.aspx" />
+    <Content Include="pexels-freestocksorg-163944.jpg" />
+    <Content Include="pexels-pietro-jeng-360622.jpg" />
     <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="Search.PNG" />
+    <Content Include="SearchDisplay.aspx" />
+    <Content Include="SearchShop.aspx" />
+    <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -194,6 +201,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="UpdateShop.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -245,6 +253,13 @@
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="MainApp.aspx.designer.vb">
+      <DependentUpon>MainApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainApp.aspx.vb">
+      <DependentUpon>MainApp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -264,12 +279,33 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SearchDisplay.aspx.designer.vb">
+      <DependentUpon>SearchDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDisplay.aspx.vb">
+      <DependentUpon>SearchDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SearchShop.aspx.designer.vb">
+      <DependentUpon>SearchShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchShop.aspx.vb">
+      <DependentUpon>SearchShop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.vb">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateShop.aspx.designer.vb">
+      <DependentUpon>UpdateShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateShop.aspx.vb">
+      <DependentUpon>UpdateShop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.vb">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
