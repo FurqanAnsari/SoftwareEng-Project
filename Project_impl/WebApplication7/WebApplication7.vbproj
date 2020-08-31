@@ -133,6 +133,7 @@
     <Content Include="About.aspx" />
     <Content Include="add.aspx" />
     <Content Include="add.PNG" />
+    <Content Include="alertAdd.aspx" />
     <Content Include="all.PNG" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -153,6 +154,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="home.aspx" />
+    <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="Search.PNG" />
     <Content Include="update.PNG" />
@@ -197,6 +200,13 @@
       <DependentUpon>add.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="alertAdd.aspx.designer.vb">
+      <DependentUpon>alertAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alertAdd.aspx.vb">
+      <DependentUpon>alertAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
@@ -222,6 +232,13 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.designer.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.vb">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
