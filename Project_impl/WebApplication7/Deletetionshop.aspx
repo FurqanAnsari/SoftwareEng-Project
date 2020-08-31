@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="UpdateShop.aspx.vb" Inherits="WebApplication7.UpdateShop" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Deletetionshop.aspx.vb" Inherits="WebApplication7.Deletetionshop" %>
 
 <!DOCTYPE html>
 
@@ -16,12 +16,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="jumbotron"  style="height:100px; background-color:lavender;"> 
+        <div>
+             <div class="jumbotron"  style="height:100px; background-color:lavender;"> 
             <h1 style="color:darkslateblue; font-family:'Arial Rounded MT';">UPDATE HERE.</h1>
             <table class="table tbale-bordered table-dark table-active">
                 <tr>
                     <td>
-                        Enter the medicine Code & Press Enter:
+                        Enter the medicine Code And Press Enter:
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
@@ -80,13 +81,12 @@
                     </tr>
                 <tr>
                     <td>
-               <asp:Button ID="Button1" runat="server" Text="Update" CssClass="btn btn-lg btn-success" style="position:relative; right:-300px;"/>
-                    <asp:Button ID="Button2" runat="server" Text="Exit" CssClass="btn btn-lg btn-danger" style="position:relative; right:-400px;"/>
+               <asp:Button ID="Button1" runat="server" Text="Delete" CssClass="btn btn-lg btn-danger" style="position:relative; right:-300px;"/>
+                    <asp:Button ID="Button2" runat="server" Text="Cancel" CssClass="btn btn-lg btn-light" style="position:relative; right:-400px;"/>
        </td>
                 </tr>
             </table> 
- </div>
-       
- </form>
+        </div>
+    </form>
 </body>
 </html>

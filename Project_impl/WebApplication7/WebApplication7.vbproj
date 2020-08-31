@@ -143,6 +143,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="delete.PNG" />
+    <Content Include="Deletetionshop.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -237,6 +238,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deletetionshop.aspx.designer.vb">
+      <DependentUpon>Deletetionshop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deletetionshop.aspx.vb">
+      <DependentUpon>Deletetionshop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
