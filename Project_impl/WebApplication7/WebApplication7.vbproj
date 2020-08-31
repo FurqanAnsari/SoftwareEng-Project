@@ -155,9 +155,12 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="home.aspx" />
+    <Content Include="invent.PNG" />
+    <Content Include="MainApp.aspx" />
     <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="Search.PNG" />
+    <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -238,6 +241,13 @@
     </Compile>
     <Compile Include="home.aspx.vb">
       <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MainApp.aspx.designer.vb">
+      <DependentUpon>MainApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainApp.aspx.vb">
+      <DependentUpon>MainApp.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
