@@ -162,6 +162,7 @@
     <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="Search.PNG" />
+    <Content Include="SearchDisplay.aspx" />
     <Content Include="SearchShop.aspx" />
     <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
@@ -271,6 +272,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SearchDisplay.aspx.designer.vb">
+      <DependentUpon>SearchDisplay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchDisplay.aspx.vb">
+      <DependentUpon>SearchDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="SearchShop.aspx.designer.vb">
       <DependentUpon>SearchShop.aspx</DependentUpon>
