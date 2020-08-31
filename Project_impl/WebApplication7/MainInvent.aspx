@@ -57,7 +57,7 @@
             <table>
                 <tr>
                     <td class="auto-style1">
-                        <img src="add.PNG" style="position:relative; right:-100px;"/>
+                        <a href="add.aspx"> <img src="add.PNG" style="position:relative; right:-100px;"/> /a>
                     <img src="Search.PNG" style="position:relative; right:-100px;" />&nbsp;
                     </td> 
                     <td class="auto-style3">
