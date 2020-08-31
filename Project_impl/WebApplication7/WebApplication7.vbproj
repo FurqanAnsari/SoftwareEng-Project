@@ -157,9 +157,12 @@
     <Content Include="home.aspx" />
     <Content Include="invent.PNG" />
     <Content Include="MainApp.aspx" />
+    <Content Include="pexels-freestocksorg-163944.jpg" />
+    <Content Include="pexels-pietro-jeng-360622.jpg" />
     <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="Search.PNG" />
+    <Content Include="SearchShop.aspx" />
     <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
@@ -268,6 +271,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SearchShop.aspx.designer.vb">
+      <DependentUpon>SearchShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchShop.aspx.vb">
+      <DependentUpon>SearchShop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">
       <DependentUpon>Site.Master</DependentUpon>
