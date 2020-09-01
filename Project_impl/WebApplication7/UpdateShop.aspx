@@ -21,11 +21,7 @@
             <table class="table tbale-bordered table-dark table-active">
                 <tr>
                     <td>
-<<<<<<< HEAD
                         Enter the medicine Name:
-=======
-                        Enter the medicine Code & Press Enter:
->>>>>>> f7c9b89f94370eb9d1da6a1b7d1af53cf4fd38e5
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
