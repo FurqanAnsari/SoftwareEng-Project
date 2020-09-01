@@ -41,4 +41,8 @@ Public Class UpdateShop
         TextBox6.Text = table.Rows(0)(4).ToString()
         TextBox7.Text = table.Rows(0)(5).ToString()
     End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Response.Redirect("MainInvent.aspx")
+    End Sub
 End Class

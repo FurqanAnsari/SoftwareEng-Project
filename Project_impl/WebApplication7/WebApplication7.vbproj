@@ -168,6 +168,7 @@
     <Content Include="pexels-pietro-jeng-360622.jpg" />
     <Content Include="pexels-pixabay-207601.jpg" />
     <Content Include="pexels-pixabay-208512.jpg" />
+    <Content Include="reocrd.aspx" />
     <Content Include="Search.PNG" />
     <Content Include="SearchDisplay.aspx" />
     <Content Include="SearchShop.aspx" />
@@ -294,6 +295,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reocrd.aspx.designer.vb">
+      <DependentUpon>reocrd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reocrd.aspx.vb">
+      <DependentUpon>reocrd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="SearchDisplay.aspx.designer.vb">
       <DependentUpon>SearchDisplay.aspx</DependentUpon>

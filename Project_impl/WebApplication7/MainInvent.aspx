@@ -61,15 +61,17 @@
                     <a href="SearchShop.aspx" ><img src="Search.PNG" style="position:relative; right:-100px;" />&nbsp;</a>
                     </td> 
                     <td class="auto-style3">
-                          &nbsp;<img src="all.PNG" class="auto-style4" style="position:relative; right:-50px; top:-20px;"/></td>
+                          &nbsp;<a href="reocrd.aspx"><img src="all.PNG" class="auto-style4" style="position:relative; right:-50px; top:-20px;"/></a></td>
                 </tr>
                 <tr>
                     <td >
                        <a href="Deletetionshop.aspx" ><img src="delete.PNG" style="position:relative; right:-100px;"/> </a>
-                        <img src="update.PNG" class="auto-style2"/>
+                        <a href="UpdateShop.aspx" ><img src="update.PNG" class="auto-style2"/></a>
                     </td>
-                    <td>
-                        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+                    <td style="position:relative;right:-74px;top:-129px; width: 255px; height: 400px;" >
+                        <asp:ListBox  ID="ListBox1" runat="server" Width="262px" Height="275px" DataSourceID="SqlDataSource1" DataTextField="nameM" DataValueField="code"></asp:ListBox>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Meds]"></asp:SqlDataSource>
+                        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
                     </td>
                 </tr>
             </table>

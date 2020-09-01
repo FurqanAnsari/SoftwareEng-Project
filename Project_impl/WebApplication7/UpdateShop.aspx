@@ -82,7 +82,7 @@
                 <tr>
                     <td>
                <asp:Button ID="Button1" runat="server" Text="Update" CssClass="btn btn-lg btn-success" style="position:relative; right:-300px;"/>
-                    <asp:Button ID="Button2" runat="server" Text="Exit" CssClass="btn btn-lg btn-danger" style="position:relative; right:-400px;"/>
+                    <asp:Button ID="Button2" runat="server" Text="Exit" CssClass="btn btn-lg btn-danger" style="position:relative; right:-400px; width: 36px;"/>
        </td>
                 </tr>
             </table> 
