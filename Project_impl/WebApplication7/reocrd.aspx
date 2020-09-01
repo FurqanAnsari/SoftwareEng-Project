@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="GridView1" runat="server">
+            <asp:GridView  ID="GridView1" runat="server" BackColor="#99CCFF" BorderColor="#000066" BorderStyle="Double" Width="1620px">
             </asp:GridView>
         </div>
     </form>
