@@ -26,4 +26,8 @@ Public Class SearchShop
         Label11.Text = table.Rows(0)(4).ToString()
         Label12.Text = table.Rows(0)(5).ToString()
     End Sub
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Response.Redirect("MainInvent.aspx")
+    End Sub
 End Class

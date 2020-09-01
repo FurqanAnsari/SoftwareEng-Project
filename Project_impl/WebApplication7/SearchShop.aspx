@@ -29,6 +29,7 @@
 
                 <asp:TextBox ID="TextBox1" runat="server" Style="position:relative; right:-180px; top: 2px; width: 531px;"></asp:TextBox><br />
                 <asp:Button ID="Button1" runat="server" Text="Search" CssClass="btn btn-lg btn-success" Style="position:relative; right:-400px; bottom:-20px;" />
+                
             </div>
             <table border="0" style="width:50%;height:130px;position:absolute;left:380px; bottom:470px" >
             <tr>
@@ -104,6 +105,7 @@
                 </td>
             </tr>
         </table>
+             <asp:Button ID="Button3" runat="server" Text="Button" CssClass="btn btn-lg btn-success" Style="position:relative; right:-250px; bottom:480px;" />
         </div>
         
     </form>

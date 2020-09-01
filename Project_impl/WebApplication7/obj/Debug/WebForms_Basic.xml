@@ -217,54 +217,63 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox2">
+<member name="F:WebApplication7.Deletetionshop._Button3">
 <summary>
-TextBox2 control.
+Button3 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox3">
+<member name="F:WebApplication7.Deletetionshop._Label1">
 <summary>
-TextBox3 control.
+Label1 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox4">
+<member name="F:WebApplication7.Deletetionshop._Label2">
 <summary>
-TextBox4 control.
+Label2 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox5">
+<member name="F:WebApplication7.Deletetionshop._Label3">
 <summary>
-TextBox5 control.
+Label3 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox6">
+<member name="F:WebApplication7.Deletetionshop._Label4">
 <summary>
-TextBox6 control.
+Label4 control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.Deletetionshop._TextBox7">
+<member name="F:WebApplication7.Deletetionshop._Label5">
 <summary>
-TextBox7 control.
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication7.Deletetionshop._Label6">
+<summary>
+Label6 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -571,6 +580,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebApplication7.SearchShop._Label12">
 <summary>
 Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebApplication7.SearchShop._Button3">
+<summary>
+Button3 control.
 </summary>
 <remarks>
 Auto-generated field.

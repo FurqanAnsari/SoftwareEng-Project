@@ -65,7 +65,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <img src="delete.PNG" style="position:relative; right:-100px;"/>
+                       <a href="Deletetionshop.aspx" ><img src="delete.PNG" style="position:relative; right:-100px;"/> </a>
                         <img src="update.PNG" class="auto-style2"/>
                     </td>
                     <td>

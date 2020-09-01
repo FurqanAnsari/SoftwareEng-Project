@@ -26,17 +26,18 @@
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:Button ID="Button3" runat="server" Text="Button" />
                     </td>
                 </tr>
             </table>
            
-            <table class="table table-active table-light table-bordered">
+            <table class="table table-active table-light ">
                 <tr>
                     <td>
                         Name:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -44,7 +45,7 @@
                         Code:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label2" runat="server" Text="                  "></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -52,7 +53,7 @@
                         Price Per Item:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -60,7 +61,7 @@
                         Manufacturor:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label4" runat="server" Text=""></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -68,7 +69,7 @@
                         Quantity:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label5" runat="server" Text=""></asp:Label>
                     </td>
                 </tr>
                 <tr>
@@ -76,7 +77,7 @@
                         Expiration Date:
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                        <asp:Label ID="Label6" runat="server" Text=""></asp:Label>
                     </td>
                     </tr>
                 <tr>
