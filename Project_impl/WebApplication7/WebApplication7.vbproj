@@ -198,6 +198,10 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="UpdateShop.aspx" />
+    <Content Include="w.bill.PNG" />
+    <Content Include="w.invent.PNG" />
+    <Content Include="WarehouseHome.aspx" />
+    <Content Include="WarehouseInvent.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
@@ -329,6 +333,20 @@
     </Compile>
     <Compile Include="MainInvent.aspx.vb">
       <DependentUpon>MainInvent.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseHome.aspx.designer.vb">
+      <DependentUpon>WarehouseHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseHome.aspx.vb">
+      <DependentUpon>WarehouseHome.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseInvent.aspx.designer.vb">
+      <DependentUpon>WarehouseInvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseInvent.aspx.vb">
+      <DependentUpon>WarehouseInvent.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
