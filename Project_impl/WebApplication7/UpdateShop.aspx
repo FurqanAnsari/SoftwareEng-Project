@@ -18,13 +18,14 @@
     <form id="form1" runat="server">
         <div class="jumbotron"  style="height:100px; background-color:lavender;"> 
             <h1 style="color:darkslateblue; font-family:'Arial Rounded MT';">UPDATE HERE.</h1>
-            <table class="table tbale-bordered table-dark table-active">
+            <table class="table table-dark table-active">
                 <tr>
                     <td>
                         Enter the medicine Code & Press Enter:
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                        <asp:Button ID="Button3" runat="server" Text="Button" />
                     </td>
                 </tr>
             </table>
