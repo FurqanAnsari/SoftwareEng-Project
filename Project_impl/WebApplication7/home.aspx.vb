@@ -16,7 +16,7 @@ Public Class home
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
-            Response.Redirect("MainApp.aspx")
+            Response.Redirect("MainInvent.aspx")
         Else
             MessageBox.Show("TG")
         End If
