@@ -36,7 +36,8 @@
                             Enter Password:
                         </td>
                         <td>
-                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+
+                            <asp:TextBox  ID="TextBox2" runat="server"></asp:TextBox>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please enter password." ControlToValidate="TextBox2" EnableClientScript="False"></asp:RequiredFieldValidator>
                         </td>
                     </tr>
