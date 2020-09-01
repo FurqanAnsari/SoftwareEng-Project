@@ -58,7 +58,7 @@
                 <tr>
                     <td class="auto-style1">
                         <a href="add.aspx"> <img src="add.PNG" style="position:relative; right:-100px;"/> /a>
-                    <img src="Search.PNG" style="position:relative; right:-100px;" />&nbsp;
+                    <a href="SearchShop.aspx"><img src="Search.PNG" style="position:relative; right:-100px;" />&nbsp;</a>
                     </td> 
                     <td class="auto-style3">
                           &nbsp;<img src="all.PNG" class="auto-style4" style="position:relative; right:-50px; top:-20px;"/></td>
@@ -66,7 +66,7 @@
                 <tr>
                     <td >
                         <img src="delete.PNG" style="position:relative; right:-100px;"/>
-                        <img src="update.PNG" class="auto-style2"/>
+                        <a href="SearchShop.aspx" ><img src="update.PNG" class="auto-style2"/></a>
                     </td>
                     <td>
                         <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
