@@ -388,15 +388,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebApplication7.reocrd._SqlDataSource1">
-<summary>
-SqlDataSource1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:WebApplication7.SearchDisplay._form1">
 <summary>
 form1 control.
@@ -787,15 +778,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebApplication7.WebForm1._form1">
 <summary>
 form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebApplication7.WebForm1._ListBox1">
-<summary>
-ListBox1 control.
 </summary>
 <remarks>
 Auto-generated field.

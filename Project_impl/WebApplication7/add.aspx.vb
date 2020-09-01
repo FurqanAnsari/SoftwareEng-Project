@@ -14,9 +14,13 @@ Public Class add
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        'Fetch the Cookie using its Key.
+        Dim nameCookie As HttpCookie = Request.Cookies("Name")
+        'If Cookie exists fetch its value.
+        Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
         cmd = con.CreateCommand()
         cmd.CommandType = CommandType.Text
-        cmd.CommandText = "insert into Meds values('" + TextBox2.Text + "','" + TextBox1.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + "admin" + "')"
+        cmd.CommandText = "insert into Meds values('" + TextBox2.Text + "','" + TextBox1.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + name + "')"
         cmd.ExecuteNonQuery()
 
         Windows.MessageBox.Show("Added Successfully")

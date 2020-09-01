@@ -9,6 +9,7 @@ Public Class home
 
     End Sub
 
+
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim con As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
         Dim cmd As SqlCommand = New SqlCommand("select * from accounts where id='" + TextBox1.Text + "'and pass='" + TextBox2.Text + "'", con)
@@ -16,7 +17,19 @@ Public Class home
         Dim dt As DataTable = New DataTable()
         sda.Fill(dt)
         If (dt.Rows.Count > 0) Then
+            'Create a Cookie with a suitable Key.
+            Dim nameCookie As New HttpCookie("Name")
+
+            'Set the Cookie value.
+            nameCookie.Values("Name") = TextBox1.Text
+
+            'Set the Expiry date.
+            nameCookie.Expires = DateTime.Now.AddDays(30)
+
+            'Add the Cookie to Browser.
+            Response.Cookies.Add(nameCookie)
             Response.Redirect("MainInvent.aspx")
+
         Else
             MessageBox.Show("TG")
         End If

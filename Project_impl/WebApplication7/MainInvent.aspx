@@ -70,7 +70,7 @@
                     </td>
                     <td style="position:relative;right:-74px;top:-129px; width: 255px; height: 400px;" >
                         <asp:ListBox  ID="ListBox1" runat="server" Width="262px" Height="275px" DataSourceID="SqlDataSource1" DataTextField="nameM" DataValueField="code"></asp:ListBox>
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Meds]"></asp:SqlDataSource>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Meds]" OldValuesParameterFormatString="original_{0}"></asp:SqlDataSource>
                         <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
                     </td>
                 </tr>

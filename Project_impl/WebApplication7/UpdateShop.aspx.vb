@@ -29,8 +29,13 @@ Public Class UpdateShop
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'Fetch the Cookie using its Key.
+        Dim nameCookie As HttpCookie = Request.Cookies("Name")
+        'If Cookie exists fetch its value.
+        Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
+
         Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
-        Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + "admin" + "'", conn)
+        Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + name + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
         Dim table As New DataTable()
         adapter.Fill(table)
