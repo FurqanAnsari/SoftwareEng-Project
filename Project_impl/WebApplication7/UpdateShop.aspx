@@ -21,11 +21,10 @@
             <table class="table tbale-bordered table-dark table-active">
                 <tr>
                     <td>
-                        Enter the medicine Name:
+                        Enter the medicine Code & Press Enter:
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                    &nbsp;<asp:Button ID="Button3" runat="server" Text="Button" />
                     </td>
                 </tr>
             </table>

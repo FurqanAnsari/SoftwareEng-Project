@@ -20,7 +20,7 @@
            <h1 style="color:white; font-family:'Arial Rounded MT'; font:300;">WELCOME TO MAIN PAGE</h1>
         </div>
         <div>
-             <a href ="MainInvent.aspx"> <img src="invent.PNG"  style="position:relative; right:-100px; top:-20px;"/></a>
+             <img src="invent.PNG"  style="position:relative; right:-100px; top:-20px;"/>
             <img src="statement.PNG" style="position:relative; right:-200px; " />
         </div>
         <asp:Button ID="Button1" runat="server" Text="LOG OUT" CssClass="btn btn-danger btn-lg btn-outline-light" style="float:right;"/>
