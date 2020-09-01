@@ -16,8 +16,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="jumbotron bg-dark"  style="height:150px;">
-            <h1 style="color:white; font-family:'Arial Rounded MT'; font:300; text-align:center;">WELCOME TO MAIN PAGE</h1>
+        <div class="jumbotron "  style="height:150px;">
+            <h1 style="color:black; font-family:'Arial Rounded MT'; font:300; text-align:center;">WELCOME TO MAIN PAGE</h1>
         </div>
         <div>
              <img src="w.invent.PNG"  style="position:relative; right:-250px; top:-20px;"/>
