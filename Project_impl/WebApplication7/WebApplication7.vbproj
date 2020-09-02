@@ -207,8 +207,18 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="UpdateShop.aspx" />
+    <Content Include="w.add.PNG" />
     <Content Include="w.bill.PNG" />
+    <Content Include="w.Dell.PNG" />
     <Content Include="w.invent.PNG" />
+    <Content Include="w.search.PNG" />
+    <Content Include="w.update.PNG" />
+    <Content Include="WarehouseSalesMenu.aspx" />
+    <Content Include="wmysales.PNG" />
+    <Content Include="wshop1.PNG" />
+    <Content Include="wshop2.PNG" />
+    <Content Include="w_all.PNG" />
+    <Content Include="w_myinvent.aspx" />
     <Content Include="WarehouseHome.aspx" />
     <Content Include="WarehouseInvent.aspx" />
     <Content Include="wareInven.PNG" />
@@ -350,6 +360,20 @@
     </Compile>
     <Compile Include="MainInvent.aspx.vb">
       <DependentUpon>MainInvent.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseSalesMenu.aspx.designer.vb">
+      <DependentUpon>WarehouseSalesMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseSalesMenu.aspx.vb">
+      <DependentUpon>WarehouseSalesMenu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="w_myinvent.aspx.designer.vb">
+      <DependentUpon>w_myinvent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="w_myinvent.aspx.vb">
+      <DependentUpon>w_myinvent.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="WarehouseHome.aspx.designer.vb">
