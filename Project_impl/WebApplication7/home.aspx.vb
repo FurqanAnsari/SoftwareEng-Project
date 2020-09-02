@@ -28,7 +28,14 @@ Public Class home
 
             'Add the Cookie to Browser.
             Response.Cookies.Add(nameCookie)
-            Response.Redirect("MainInvent.aspx")
+
+            If (TextBox1.Text = "admin" And TextBox2.Text = "admin") Then
+                Response.Redirect("WarehouseHome.aspx")
+            Else
+                Response.Redirect("MainInvent.aspx")
+            End If
+
+
 
         Else
             MessageBox.Show("TG")
