@@ -173,7 +173,9 @@
     <Content Include="SearchDisplay.aspx" />
     <Content Include="SearchShop.aspx" />
     <Content Include="shop1.PNG" />
+    <Content Include="shop1invo.aspx" />
     <Content Include="shop2.PNG" />
+    <Content Include="shop2invo.aspx" />
     <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
@@ -325,6 +327,20 @@
     </Compile>
     <Compile Include="SearchShop.aspx.vb">
       <DependentUpon>SearchShop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="shop1invo.aspx.designer.vb">
+      <DependentUpon>shop1invo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop1invo.aspx.vb">
+      <DependentUpon>shop1invo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="shop2invo.aspx.designer.vb">
+      <DependentUpon>shop2invo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop2invo.aspx.vb">
+      <DependentUpon>shop2invo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Site.Master.designer.vb">

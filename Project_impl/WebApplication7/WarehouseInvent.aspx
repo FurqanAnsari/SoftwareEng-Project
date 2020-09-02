@@ -20,11 +20,11 @@
             <h1 style="color:white; font-family:'Arial Rounded MT'; font:300; text-align:center;">INVENTORY</h1>
         </div>
         <div>
-            <img src="shop1.PNG" style="position:relative; right:-200px;" />
-            <img src="shop2.PNG"  style="position:relative; right:-300px;" />
-            <a href="w_myinvent.aspx"><img src="wareInven.PNG" style="position:relative; right:-400px; bottom:-10px;"/></a>
+            <a href="shop1invo.aspx"><img src="shop1.PNG" style="position:relative; right:-200px;" id="hello" /></a>
+            <a href="shop2invo.aspx"><img src="shop2.PNG"  style="position:relative; right:-300px;" /></a>
+            <a href="w_myinvent.aspx" ><img src="wareInven.PNG" style="position:relative; right:-400px; bottom:-10px;"/></a>
         </div>
-        <img src="back.PNG" style="position:relative; bottom:-85px;" />
+        <a href="WarehouseHome.aspx"><img src="back.PNG" style="position:relative; bottom:-85px;" /></a>
     </form>
 </body>
 </html>

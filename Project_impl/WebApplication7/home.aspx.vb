@@ -32,7 +32,7 @@ Public Class home
             If (TextBox1.Text = "admin" And TextBox2.Text = "admin") Then
                 Response.Redirect("WarehouseHome.aspx")
             Else
-                Response.Redirect("MainInvent.aspx")
+                Response.Redirect("MainApp.aspx")
             End If
 
 
