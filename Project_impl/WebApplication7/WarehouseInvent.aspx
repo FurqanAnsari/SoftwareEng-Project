@@ -22,7 +22,7 @@
         <div>
             <img src="shop1.PNG" style="position:relative; right:-200px;" />
             <img src="shop2.PNG"  style="position:relative; right:-300px;" />
-            <img src="wareInven.PNG" style="position:relative; right:-400px; bottom:-10px;"/>
+            <a href="w_myinvent.aspx"><img src="wareInven.PNG" style="position:relative; right:-400px; bottom:-10px;"/></a>
         </div>
         <img src="back.PNG" style="position:relative; bottom:-85px;" />
     </form>

@@ -28,6 +28,17 @@ Public Class SearchShop
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Response.Redirect("MainInvent.aspx")
+        'Fetch the Cookie using its Key.
+        Dim nameCookie As HttpCookie = Request.Cookies("Name")
+        'If Cookie exists fetch its value.
+        Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
+
+
+        If name = "admin" Then
+            Response.Redirect("w_myinvent.aspx")
+        Else
+            Response.Redirect("MainInvent.aspx")
+        End If
+
     End Sub
 End Class

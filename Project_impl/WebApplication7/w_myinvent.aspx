@@ -23,21 +23,21 @@
             <table>
                 <tr>
                     <td>
-                        <img src="w.add.PNG"  style="position:relative; right:-200px; top:-60px;"/>
+                        <a href="add.aspx"><img src="w.add.PNG"  style="position:relative; right:-200px; top:-60px;"/></a>
                     </td>
                     <td>
-                        <img src="w.search.PNG" style="position:relative; right:-190px; top:-50px;" />
+                        <a href="SearchShop.aspx"><img src="w.search.PNG" style="position:relative; right:-190px; top:-50px;" /></a>
                     </td>
                     <td>
-                        <img src="w_all.PNG"  style="position:relative; bottom:-20px; right:-270px;"/>
+                        <a href="reocrd.aspx"><img src="w_all.PNG"  style="position:relative; bottom:-20px; right:-270px;"/></a>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="w.Dell.PNG" style="position:relative; right:-200px; top:-130px;" />
+                        <a href="Deletetionshop.aspx"><img src="w.Dell.PNG" style="position:relative; right:-200px; top:-130px;" /></a>
                   </td>
                     <td>
-                        <img src="w.update.PNG" style="position:relative; right:-220px; top:-120px;" />
+                        <a href="UpdateShop.aspx" ><img src="w.update.PNG" style="position:relative; right:-220px; top:-120px;" /></a>
                   </td>
                 </tr>
             </table>
