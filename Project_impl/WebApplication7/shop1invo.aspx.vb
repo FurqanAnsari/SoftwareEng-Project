@@ -24,5 +24,7 @@ Public Class shop1invo
 
     End Sub
 
+    Protected Sub GridView2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GridView2.SelectedIndexChanged
 
+    End Sub
 End Class

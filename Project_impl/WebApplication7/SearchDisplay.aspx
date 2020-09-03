@@ -16,7 +16,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="jumbotron bg-dark"  style="height:100px;"> <h1 style="color:white;">INFORMATION</h1>
+        <div class="jumbotron bg-dark"  style="height:100px;"> <h1 style="color:white;">ssINFORMATION</h1>
             </div> <div>
             <table class="table table-active table-light table-bordered border-danger">
                 <tr>

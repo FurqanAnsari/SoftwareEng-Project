@@ -23,10 +23,10 @@
             <table>
                 <tr>
                     <td>
-                        <img src="wshop1.PNG" style="position:relative; right:-300px;" />
+                       <a href="shop1bal.aspx"> <img src="wshop1.PNG" style="position:relative; right:-300px;" /></a>
                  </td>
                     <td>
-                        <img src="wshop2.PNG" style="position:relative; right:-400px; bottom:-10px;" />
+                        <a href="shop2bal.aspx"><img src="wshop2.PNG" style="position:relative; right:-400px; bottom:-10px;" /></a>
                     </td>
                 </tr>
             </table>

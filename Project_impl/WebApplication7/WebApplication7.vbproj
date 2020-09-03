@@ -136,11 +136,13 @@
     <Content Include="add.PNG" />
     <Content Include="alertAdd.aspx" />
     <Content Include="all.PNG" />
+    <Content Include="allbal.aspx" />
     <Content Include="App_Data\Database2.mdf" />
     <Content Include="App_Data\Database2_log.ldf">
       <DependentUpon>Database2.mdf</DependentUpon>
     </Content>
     <Content Include="back.PNG" />
+    <Content Include="bill.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -173,8 +175,10 @@
     <Content Include="SearchDisplay.aspx" />
     <Content Include="SearchShop.aspx" />
     <Content Include="shop1.PNG" />
+    <Content Include="shop1bal.aspx" />
     <Content Include="shop1invo.aspx" />
     <Content Include="shop2.PNG" />
+    <Content Include="shop2bal.aspx" />
     <Content Include="shop2invo.aspx" />
     <Content Include="statement.PNG" />
     <Content Include="update.PNG" />
@@ -242,6 +246,13 @@
       <DependentUpon>alertAdd.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="allbal.aspx.designer.vb">
+      <DependentUpon>allbal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="allbal.aspx.vb">
+      <DependentUpon>allbal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="About.aspx.designer.vb">
@@ -249,6 +260,13 @@
     </Compile>
     <Compile Include="About.aspx.vb">
       <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="bill.aspx.designer.vb">
+      <DependentUpon>bill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bill.aspx.vb">
+      <DependentUpon>bill.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Contact.aspx.designer.vb">
@@ -329,11 +347,25 @@
       <DependentUpon>SearchShop.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="shop1bal.aspx.designer.vb">
+      <DependentUpon>shop1bal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop1bal.aspx.vb">
+      <DependentUpon>shop1bal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="shop1invo.aspx.designer.vb">
       <DependentUpon>shop1invo.aspx</DependentUpon>
     </Compile>
     <Compile Include="shop1invo.aspx.vb">
       <DependentUpon>shop1invo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="shop2bal.aspx.designer.vb">
+      <DependentUpon>shop2bal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop2bal.aspx.vb">
+      <DependentUpon>shop2bal.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="shop2invo.aspx.designer.vb">

@@ -21,7 +21,7 @@
         </div>
         <div>
              <a href="MainInvent" > <img src="invent.PNG"  style="position:relative; right:-100px; top:-20px;"/></a>
-            <img src="statement.PNG" style="position:relative; right:-200px; " />
+            <a href="bill.aspx" ><img src="statement.PNG" style="position:relative; right:-200px; " /></a>
         </div>
         <asp:Button ID="Button1" runat="server" Text="LOG OUT" CssClass="btn btn-danger btn-lg btn-outline-light" style="float:right;"/>
     </form>
