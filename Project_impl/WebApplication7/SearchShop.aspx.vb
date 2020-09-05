@@ -12,19 +12,27 @@ Public Class SearchShop
         Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + "admin" + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
         Dim table As New DataTable()
+        Label13.Text = ""
         adapter.Fill(table)
-        Label1.Text = "Medicine Code"
-        Label2.Text = "Medicine Name"
-        Label3.Text = "Medicine Quantitiy"
-        Label4.Text = "Medicine Price"
-        Label5.Text = "Company Name"
-        Label6.Text = "Expiry Date "
-        Label7.Text = table.Rows(0)(0).ToString()
-        Label8.Text = table.Rows(0)(1).ToString()
-        Label9.Text = table.Rows(0)(2).ToString()
-        Label10.Text = table.Rows(0)(3).ToString()
-        Label11.Text = table.Rows(0)(4).ToString()
-        Label12.Text = table.Rows(0)(5).ToString()
+        Try
+            Label7.Text = table.Rows(0)(0).ToString()
+            Label8.Text = table.Rows(0)(1).ToString()
+            Label9.Text = table.Rows(0)(2).ToString()
+            Label10.Text = table.Rows(0)(3).ToString()
+            Label11.Text = table.Rows(0)(4).ToString()
+            Label12.Text = table.Rows(0)(5).ToString()
+            Label1.Text = "Medicine Code"
+            Label2.Text = "Medicine Name"
+            Label3.Text = "Medicine Quantitiy"
+            Label4.Text = "Medicine Price"
+            Label5.Text = "Company Name"
+            Label6.Text = "Expiry Date "
+        Catch ex As Exception
+            Label13.Text = "Invalid Input Try Again"
+        End Try
+
+
+
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

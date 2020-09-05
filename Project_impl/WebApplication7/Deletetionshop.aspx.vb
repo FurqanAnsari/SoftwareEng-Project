@@ -12,14 +12,20 @@ Public Class Deletetionshop
         Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
         Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + "admin" + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
+        Label8.Text = ""
         Dim table As New DataTable()
         adapter.Fill(table)
-        Label1.Text = table.Rows(0)(1).ToString()
-        Label2.Text = table.Rows(0)(0).ToString()
-        Label3.Text = table.Rows(0)(2).ToString()
-        Label4.Text = table.Rows(0)(3).ToString()
-        Label5.Text = table.Rows(0)(4).ToString()
-        Label6.Text = table.Rows(0)(5).ToString()
+        Try
+            Label1.Text = table.Rows(0)(1).ToString()
+            Label2.Text = table.Rows(0)(0).ToString()
+            Label3.Text = table.Rows(0)(2).ToString()
+            Label4.Text = table.Rows(0)(3).ToString()
+            Label5.Text = table.Rows(0)(4).ToString()
+            Label6.Text = table.Rows(0)(5).ToString()
+        Catch ex As Exception
+            Label8.Text = "Invalid Input"
+        End Try
+
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

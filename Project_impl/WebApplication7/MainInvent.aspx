@@ -60,8 +60,7 @@
                         <a href="add.aspx" ><img src="add.PNG" style="position:relative; right:-100px;"/></a>
                     <a href="SearchShop.aspx" ><img src="Search.PNG" style="position:relative; right:-100px;" />&nbsp;</a>
                     </td> 
-                    <td class="auto-style3">
-                          &nbsp;<a href="reocrd.aspx"><img src="all.PNG" class="auto-style4" style="position:relative; right:-50px; top:-20px;"/></a></td>
+                     
                 </tr>
                 <tr>
                     <td >
@@ -69,16 +68,14 @@
                         <a href="UpdateShop.aspx" ><img src="update.PNG" class="auto-style2"/></a>
                     </td>
                     <td style="position:relative;right:-74px;top:-129px; width: 255px; height: 400px;" >
-                        <asp:ListBox  ID="ListBox1" runat="server" Width="262px" Height="275px" DataSourceID="SqlDataSource1" DataTextField="nameM" DataValueField="code"></asp:ListBox>
-                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Meds]" OldValuesParameterFormatString="original_{0}"></asp:SqlDataSource>
-                        <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
+                         <a href="reocrd.aspx"><img src="w_all.PNG"  /></a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                         <asp:Button style="position:relative;left:500px" ID="Button1"  runat="server" class="btn btn-success btn-outline-light btn-lg" Text="BACK"   />
                     </td>
                 </tr>
             </table>
             <hr />
 
-            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-            <asp:Button ID="Button1" runat="server" Text="BACK" class="btn btn-success btn-outline-light btn-lg"/>
+          
         </div>
     </form>
 </body>

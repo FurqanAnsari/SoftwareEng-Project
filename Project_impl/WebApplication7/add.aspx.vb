@@ -20,13 +20,19 @@ Public Class add
         Dim nameCookie As HttpCookie = Request.Cookies("Name")
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
-
+        Label1.Text = ""
         cmd = con.CreateCommand()
         cmd.CommandType = CommandType.Text
-        cmd.CommandText = "insert into Meds values('" + TextBox2.Text + "','" + TextBox1.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + name + "')"
-        cmd.ExecuteNonQuery()
+        If TextBox1.Text = "" Or TextBox2.Text = "" Or TextBox3.Text = "" Or TextBox4.Text = "" Or TextBox5.Text = "" Or TextBox6.Text = "" Then
+            Label1.Text = "Invalid Detail"
+        Else
+            cmd.CommandText = "insert into Meds values('" + TextBox2.Text + "','" + TextBox1.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + TextBox5.Text + "','" + TextBox6.Text + "','" + name + "')"
+            cmd.ExecuteNonQuery()
 
-        Windows.MessageBox.Show("Added Successfully")
+        End If
+
+
+
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -41,6 +47,10 @@ Public Class add
         Else
             Response.Redirect("MainInvent.aspx")
         End If
+
+    End Sub
+
+    Protected Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
 
     End Sub
 End Class

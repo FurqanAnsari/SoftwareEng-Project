@@ -181,6 +181,7 @@
     <Content Include="shop2bal.aspx" />
     <Content Include="shop2invo.aspx" />
     <Content Include="statement.PNG" />
+    <Content Include="style.css" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />

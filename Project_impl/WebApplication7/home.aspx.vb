@@ -38,7 +38,7 @@ Public Class home
 
 
         Else
-            MessageBox.Show("TG")
+            Label4.Text = "Invalid ID or Password"
         End If
     End Sub
 End Class

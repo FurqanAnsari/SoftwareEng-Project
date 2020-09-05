@@ -23,6 +23,15 @@ Partial Public Class Deletetionshop
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Label7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''TextBox1 control.
     '''</summary>
     '''<remarks>
@@ -39,6 +48,15 @@ Partial Public Class Deletetionshop
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button3 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Label8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label1 control.
