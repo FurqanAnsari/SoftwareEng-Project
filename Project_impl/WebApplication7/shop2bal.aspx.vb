@@ -8,7 +8,7 @@ Public Class shop2bal
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
 
-        Using con As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Using con As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
             Using camd As SqlCommand = New SqlCommand("select * from customer where shop ='" + "shop2" + "'", con)
                 Using Da As New SqlDataAdapter
                     Da.SelectCommand = camd

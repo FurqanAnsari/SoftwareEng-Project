@@ -13,6 +13,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            right: -430px;
+            top: 0px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -33,7 +40,7 @@
             <table>
                  <tr>
                      <td>
-                    <img src="wmysales.PNG"  style="position:relative; right:-430px;"/></td>
+                    <a href="allbal.aspx"><img src="wmysales.PNG" class="auto-style1"/></a></td>
                 </tr>
                 <tr>
                     <td>

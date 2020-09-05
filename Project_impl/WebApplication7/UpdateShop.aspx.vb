@@ -12,7 +12,7 @@ Public Class UpdateShop
         Dim nameCookie As HttpCookie = Request.Cookies("Name")
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("UPDATE Meds set code = @fc ,nameM = @nM ,QuantM = @Qm ,PriceM = @Pm ,ManufactM = @MM ,ExpM = @EM  where code= @fc and id='" + name + "'", conn)
         Label2.Text = ""
         com.Parameters.Add("@fc", SqlDbType.VarChar).Value = TextBox3.Text
@@ -42,7 +42,7 @@ Public Class UpdateShop
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
         Label2.Text = ""
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + name + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
         Dim table As New DataTable()

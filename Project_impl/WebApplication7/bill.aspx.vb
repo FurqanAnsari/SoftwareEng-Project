@@ -9,7 +9,8 @@ Public Class bill
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True"
+
         If con.State = ConnectionState.Open Then
             con.Close()
         End If
@@ -42,7 +43,7 @@ Public Class bill
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
         Dim ins As New Integer
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + name + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
 
@@ -62,7 +63,7 @@ Public Class bill
                 cmd.CommandText = "insert into bill values('" + TextBox1.Text + "','" + ((Val(TextBox2.Text)) * (table.Rows(0)(3))).ToString() + "','" + TextBox2.Text + "')"
                 cmd.ExecuteNonQuery()
 
-                Using cont As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+                Using cont As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
                     Using camd As SqlCommand = New SqlCommand("select * from bill", cont)
                         Using Da As New SqlDataAdapter
                             Da.SelectCommand = camd
@@ -137,7 +138,7 @@ Public Class bill
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
 
 
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("truncate table bill", conn)
         conn.Open()
 
@@ -158,7 +159,7 @@ Public Class bill
     End Sub
 
     Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("delete from bill where ITEMS='" + TextBox1.Text + "'", conn)
         Dim comm As New SqlCommand("Select * from bill where ITEMS='" + TextBox1.Text + "'", conn)
         Dim adapter As New SqlDataAdapter(comm)
@@ -198,7 +199,8 @@ Public Class bill
         'If Cookie exists fetch its value.
         Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
 
-        Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+        Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
+
         Dim comm As New SqlCommand("Select * from bill where ITEMS='" + TextBox1.Text + "'", conn)
         Dim adapter As New SqlDataAdapter(comm)
         Dim table As New DataTable()
@@ -222,7 +224,7 @@ Public Class bill
             Else
                 com.Parameters.Add("@P", SqlDbType.VarChar).Value = (tablee.Rows(0)(3) * Val(TextBox2.Text)).ToString()
                 com.ExecuteNonQuery()
-                Using cont As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
+                Using cont As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
                     Using camd As SqlCommand = New SqlCommand("select * from bill", cont)
                         Using Da As New SqlDataAdapter
                             Da.SelectCommand = camd
