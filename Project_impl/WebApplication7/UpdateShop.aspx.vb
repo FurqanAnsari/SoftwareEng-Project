@@ -24,13 +24,11 @@ Public Class UpdateShop
         com.Parameters.Add("@ii", SqlDbType.VarChar).Value = TextBox1.Text
 
         conn.Open()
-        If com.ExecuteNonQuery() = 1 Then
-            MessageBox.Show("Data deleted")
-        Else
-            MessageBox.Show("Dat")
-        End If
+
         Try
 
+
+            MessageBox.Show("Data deleted")
 
         Catch ex As Exception
             Label2.Text = "Duplicate or Incorrect format"

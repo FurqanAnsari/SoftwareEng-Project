@@ -134,7 +134,6 @@
     <Content Include="About.aspx" />
     <Content Include="add.aspx" />
     <Content Include="add.PNG" />
-    <Content Include="alertAdd.aspx" />
     <Content Include="all.PNG" />
     <Content Include="allbal.aspx" />
     <Content Include="App_Data\Database2.mdf" />
@@ -172,7 +171,6 @@
     <Content Include="pexels-pixabay-208512.jpg" />
     <Content Include="reocrd.aspx" />
     <Content Include="Search.PNG" />
-    <Content Include="SearchDisplay.aspx" />
     <Content Include="SearchShop.aspx" />
     <Content Include="shop1.PNG" />
     <Content Include="shop1bal.aspx" />
@@ -181,7 +179,6 @@
     <Content Include="shop2bal.aspx" />
     <Content Include="shop2invo.aspx" />
     <Content Include="statement.PNG" />
-    <Content Include="style.css" />
     <Content Include="update.PNG" />
     <Content Include="MainInvent.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -238,13 +235,6 @@
     </Compile>
     <Compile Include="add.aspx.vb">
       <DependentUpon>add.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="alertAdd.aspx.designer.vb">
-      <DependentUpon>alertAdd.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="alertAdd.aspx.vb">
-      <DependentUpon>alertAdd.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="allbal.aspx.designer.vb">
@@ -332,13 +322,6 @@
     </Compile>
     <Compile Include="reocrd.aspx.vb">
       <DependentUpon>reocrd.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="SearchDisplay.aspx.designer.vb">
-      <DependentUpon>SearchDisplay.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SearchDisplay.aspx.vb">
-      <DependentUpon>SearchDisplay.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="SearchShop.aspx.designer.vb">
