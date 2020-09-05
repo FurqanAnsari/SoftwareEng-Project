@@ -193,11 +193,16 @@ Public Class bill
     End Sub
 
     Protected Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        'Fetch the Cookie using its Key.
+        Dim nameCookie As HttpCookie = Request.Cookies("Name")
+        'If Cookie exists fetch its value.
+        Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
+
         Dim conn As New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Bugs\Desktop\dol\SoftwareEng-Project\Project_impl\WebApplication7\App_Data\Database2.mdf;Integrated Security=True")
         Dim comm As New SqlCommand("Select * from bill where ITEMS='" + TextBox1.Text + "'", conn)
         Dim adapter As New SqlDataAdapter(comm)
         Dim table As New DataTable()
-        Dim commm As New SqlCommand("Select * from Meds where nameM='" + TextBox1.Text + "'", conn)
+        Dim commm As New SqlCommand("Select * from Meds where nameM='" + TextBox1.Text + "'and id='" + name + "'", conn)
         Dim adapterr As New SqlDataAdapter(commm)
         Dim tablee As New DataTable()
         adapterr.Fill(tablee)
