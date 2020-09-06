@@ -30,21 +30,21 @@
             <table>
                 <tr>
                     <td>
-                       <a href="shop1bal.aspx"> <img src="wshop1.PNG" style="position:relative; right:-300px;" /></a>
+                       <a href="shop1bal.aspx"> <img src="wshop1.PNG" style="position:relative; right:-300px; bottom:40px" /></a>
                  </td>
                     <td>
-                        <a href="shop2bal.aspx"><img src="wshop2.PNG" style="position:relative; right:-400px; bottom:-10px;" /></a>
+                        <a href="shop2bal.aspx"><img src="wshop2.PNG" style="position:relative; right:-400px; bottom:30px;" /></a>
                     </td>
                 </tr>
             </table>
             <table>
                  <tr>
                      <td>
-                    <a href="allbal.aspx"><img src="wmysales.PNG" class="auto-style1"/></a></td>
+                    <a href="allbal.aspx" style="position:relative; bottom:70px"><img src="wmysales.PNG" class="auto-style1" /></a></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Back" class="btn btn-danger btn-lg " style=" position:relative; right:-50px;"/>
+                        <asp:Button ID="Button1" runat="server" Text="Back" class="btn btn-danger btn-lg " style=" position:relative; right:-50px;bottom:140px"/>
                     </td>
                 </tr>
             </table>

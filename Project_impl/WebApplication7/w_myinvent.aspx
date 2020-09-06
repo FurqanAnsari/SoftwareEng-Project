@@ -13,6 +13,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            bottom: 89px;
+            left: -303px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -38,7 +45,8 @@
                   </td>
                     <td>
                         <a href="UpdateShop.aspx" ><img src="w.update.PNG" style="position:relative; right:-220px; top:-120px;" /></a>
-                  </td>
+                  <a href="WarehouseInvent.aspx"><img src="back.PNG" class="auto-style1" /></a>
+                    </td>
                 </tr>
             </table>
         </div>

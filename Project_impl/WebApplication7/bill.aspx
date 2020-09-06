@@ -9,10 +9,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title></title>
     <style type="text/css">
-        .auto-style3 {
-            height: 140px;
-            width: 810px;
-        }
         .auto-style4 {
             width: 313px;
         }
@@ -36,14 +32,12 @@
                 
                 <td class="auto-style7">
 
-                    &nbsp;<asp:Label ID="Label1" runat="server" Text="Customer Name" class="label label-info"></asp:Label>
-
-                    <asp:Label ID="Label2" runat="server" Text="" class="label label-info"></asp:Label>
+                    &nbsp;<asp:Label ID="Label2" runat="server" Text="" class="label label-info"></asp:Label>
 
                 </td>
                 <td class="auto-style4">
 
-                    <asp:TextBox ID="TextBox1" runat="server" class="form-control"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" class="form-control" Visible="false"></asp:TextBox>
 
                     <asp:Label ID="Label15" runat="server" Text=""  class="label label-warning"></asp:Label>
 
@@ -55,7 +49,8 @@
                 
                 <td class="auto-style7">
 
-                    <asp:Label ID="Label3" runat="server" Text="Date" class="label label-info"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Customer Name" class="label label-info"></asp:Label>
+
                     <asp:Label ID="Label4" runat="server" Text="" class="label label-info"></asp:Label>
                     </td>
                 <td class="auto-style4">

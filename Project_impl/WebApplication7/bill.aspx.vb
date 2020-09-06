@@ -18,21 +18,23 @@ Public Class bill
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Label5.Text = TextBox1.Text
-        Label6.Text = TextBox2.Text
+
+        Label6.Text = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")
         Button1.Visible = False
         Button3.Visible = True
         Button4.Visible = True
         Button4.Visible = True
         Button6.Visible = True
-
+        TextBox1.Visible = True
         Label1.Text = ""
         Label2.Text = "Medicine Name"
-        Label3.Text = ""
+
         Label4.Text = "Quantity"
         Label10.Visible = True
         Label11.Visible = True
-        Label5.Text = TextBox1.Text
+        Label5.Text = TextBox2.Text
+        TextBox1.Text = ""
+        TextBox2.Text = ""
     End Sub
 
 
@@ -82,7 +84,8 @@ Public Class bill
 
                 Label12.Visible = True
                 Label7.Visible = True
-
+                TextBox1.Text = ""
+                TextBox2.Text = ""
             End If
 
 
@@ -102,7 +105,8 @@ Public Class bill
         Label2.Text = "Ammount paid"
         Label4.Text = ""
         TextBox2.Visible = False
-
+        TextBox1.Text = ""
+        TextBox2.Text = ""
     End Sub
 
     Protected Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
@@ -123,6 +127,8 @@ Public Class bill
                 Button9.Visible = False
                 Button8.Visible = True
                 Button7.Visible = False
+                TextBox1.Text = ""
+                TextBox2.Text = ""
             End If
 
 
@@ -155,7 +161,8 @@ Public Class bill
         cmd.CommandText = "insert into customer values('" + Label5.Text + "','" + name + "','" + Label7.Text + "','" + Label9.Text + "','" + Label8.Text + "','" + Label6.Text + "')"
         cmd.ExecuteNonQuery()
 
-
+        TextBox1.Text = ""
+        TextBox2.Text = ""
     End Sub
 
     Protected Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -185,6 +192,8 @@ Public Class bill
                 End Using
             End Using
 
+            TextBox1.Text = ""
+            TextBox2.Text = ""
 
 
 
@@ -240,6 +249,8 @@ Public Class bill
 
                 Label7.Text = Val(Label7.Text) - table.Rows(0)(2)
                 Label7.Text = Val(Label7.Text) + (tablee.Rows(0)(3) * Val(TextBox2.Text))
+                TextBox1.Text = ""
+                TextBox2.Text = ""
             End If
 
         Catch ex As Exception
@@ -255,5 +266,9 @@ Public Class bill
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Response.Redirect("MainApp.aspx")
+    End Sub
+
+    Protected Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+
     End Sub
 End Class
