@@ -56,7 +56,7 @@ Public Class bill
         adapter.Fill(table)
 
         Try
-            Label6.Text = table.Rows(0)(3).ToString()
+
             cmd = con.CreateCommand()
             cmd.CommandType = CommandType.Text
             If Val(TextBox2.Text) = 0 Then

@@ -50,7 +50,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Price Per Item:
+                        Quantity:<br />
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox4" runat="server" class=" form-control "></asp:TextBox>
@@ -58,7 +58,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Manufacturor:
+                        Price Per Item:
                     </td>
                     <td>
                         <asp:TextBox ID="TextBox5" runat="server" class=" form-control "></asp:TextBox>
@@ -66,8 +66,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Quantity:
-                    </td>
+                        Manufacturor: </td>
                     <td>
                         <asp:TextBox ID="TextBox6" runat="server" class=" form-control "></asp:TextBox>
                     </td>

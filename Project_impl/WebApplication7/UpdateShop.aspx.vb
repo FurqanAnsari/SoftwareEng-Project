@@ -24,15 +24,8 @@ Public Class UpdateShop
         com.Parameters.Add("@ii", SqlDbType.VarChar).Value = TextBox1.Text
 
         conn.Open()
+        com.ExecuteNonQuery()
 
-        Try
-
-
-            MessageBox.Show("Data deleted")
-
-        Catch ex As Exception
-            Label2.Text = "Duplicate or Incorrect format"
-        End Try
 
     End Sub
 

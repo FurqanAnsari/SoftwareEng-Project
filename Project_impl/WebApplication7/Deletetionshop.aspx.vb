@@ -9,9 +9,15 @@ Public Class Deletetionshop
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        'Fetch the Cookie using its Key.
+        Dim nameCookie As HttpCookie = Request.Cookies("Name")
+        'If Cookie exists fetch its value.
+        Dim name As String = If(nameCookie IsNot Nothing, nameCookie.Value.Split("="c)(1), "undefined")
+
         Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
 
-        Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + "admin" + "'", conn)
+        Dim com As New SqlCommand("select * from Meds where nameM='" + TextBox1.Text + "'and Id ='" + name + "'", conn)
         Dim adapter As New SqlDataAdapter(com)
         Label8.Text = ""
         Dim table As New DataTable()
@@ -47,11 +53,8 @@ Public Class Deletetionshop
         Dim conn As SqlConnection = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='|DataDirectory|\Database2.mdf';Integrated Security=True")
         Dim com As New SqlCommand("delete from Meds where nameM='" + TextBox1.Text + "'", conn)
         conn.Open()
-        If com.ExecuteNonQuery() = 1 Then
-            MessageBox.Show("Data deleted")
-        Else
-            MessageBox.Show("Dat")
-        End If
+        com.ExecuteNonQuery()
+
 
     End Sub
 End Class
